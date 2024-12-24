@@ -1,0 +1,8 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# C# files
+[*.cs]
+
+# CA2254: Template should be a static expression
+dotnet_diagnostic.CA2254.severity = error
